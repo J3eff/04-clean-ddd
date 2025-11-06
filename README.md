@@ -1,11 +1,12 @@
 # DDD (Domain-driven Design)
 
-Design dirigido à domínio
+pt-br: Design dirigido à domínio
 
 ## Dominio
 
 - Domain Experts
     - Conversa
+  
 - Linguagem ubíqua
 
 - Usuário
@@ -13,6 +14,7 @@ Design dirigido à domínio
     - Fornecedor
     - Atendente
     - Barman
+
 
 - Agregados
 - Value Objects

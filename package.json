@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/J3eff/04-clean-ddd#readme",
   "devDependencies": {
-    "@types/node": "^24.10.0",
-    "typescript": "^5.9.3"
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
   }
 }

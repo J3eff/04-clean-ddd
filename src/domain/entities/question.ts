@@ -14,6 +14,35 @@ interface QuestionProps {
 }
 
 export class Question extends Entity<QuestionProps> {
+    get authorId() {
+        return this.props.authorId
+    }
+
+    get bastAnswerId() {
+        return this.props.bastAnswerId
+    }
+
+    get title() {
+        return this.props.title
+    }
+
+    get slug() {
+        return this.props.slug
+    }
+    
+    get content() {
+        return this.props.content
+    }
+
+    get updatedAt() {
+        return this.props.content
+    }
+
+        get createdAt() {
+        return this.props.createdAt
+    }
+
+
     static create(
         props: Optional<QuestionProps, 'createdAt'>,
         id?: UniqueEntityID
